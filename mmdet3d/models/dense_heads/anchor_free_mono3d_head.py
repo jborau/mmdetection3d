@@ -118,7 +118,8 @@ class AnchorFreeMono3DHead(BaseMono3DDenseHead):
                 type='mmdet.CrossEntropyLoss',
                 use_sigmoid=False,
                 loss_weight=1.0),
-            bbox_code_size: int = 9,  # For nuscenes
+            # bbox_code_size: int = 9,  # For nuscenes
+            bbox_code_size: int = 7,  # For kitti
             pred_attrs: bool = False,
             num_attrs: int = 9,  # For nuscenes
             pred_velo: bool = False,
