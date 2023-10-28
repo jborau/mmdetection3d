@@ -25,3 +25,4 @@ class CenterNetMono3D(SingleStageMono3DDetector):
             test_cfg=test_cfg,
             data_preprocessor=data_preprocessor,
             init_cfg=init_cfg)
+ 
