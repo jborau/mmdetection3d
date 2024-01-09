@@ -19,6 +19,8 @@ from .smoke_mono3d_head import SMOKEMono3DHead
 from .ssd_3d_head import SSD3DHead
 from .vote_head import VoteHead
 from .monocon_head import MonoConHead
+from .sensus_head import SensusHead
+from .artemis_head import ArtemisHead
 
 __all__ = [
     'Anchor3DHead', 'FreeAnchor3DHead', 'PartA2RPNHead', 'VoteHead',
@@ -27,5 +29,5 @@ __all__ = [
     'GroupFree3DHead', 'PointRPNHead', 'SMOKEMono3DHead', 'PGDHead',
     'MonoFlexHead', 'Base3DDenseHead', 'FCAF3DHead', 'ImVoxelHead',
 
-    'MonoConHead'
+    'MonoConHead', 'SensusHead', 'ArtemisHead'
 ]
